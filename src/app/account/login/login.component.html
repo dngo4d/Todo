@@ -17,7 +17,7 @@
             [(ngModel)]="loginViewModel.email"
             name="email"
             class="form-control"
-            placeholder="Email or login"
+            placeholder="UserName"
             type="email"
             required="required"
             pattern="^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$"
@@ -44,10 +44,10 @@
             [(ngModel)]="loginViewModel.password"
             name="password"
             class="form-control"
-            placeholder="***********"
+            placeholder="Password (Minimum 8 chars)"
             type="password"
             required="required"
-            maxlength="50"
+            maxlength="20"
           />
         </div>
         <span
